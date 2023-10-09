@@ -1,0 +1,94 @@
+@import './colors.variables';
+
+:export {
+  primary50: $primary-50-color;
+  primary100: $primary-100-color;
+  primary200: $primary-200-color;
+  primary300: $primary-300-color;
+  primary400: $primary-400-color;
+  primary500: $primary-500-color;
+  primary600: $primary-600-color;
+  primary700: $primary-700-color;
+  primary800: $primary-800-color;
+  primary900: $primary-900-color;
+
+  neutral50: $neutral-50-color;
+  neutral100: $neutral-100-color;
+  neutral200: $neutral-200-color;
+  neutral300: $neutral-300-color;
+  neutral400: $neutral-400-color;
+  neutral500: $neutral-500-color;
+  neutral600: $neutral-600-color;
+  neutral700: $neutral-700-color;
+  neutral800: $neutral-800-color;
+  neutral900: $neutral-900-color;
+
+  analogousIndigo50: $analogous-indigo-50-color;
+  analogousIndigo100: $analogous-indigo-100-color;
+  analogousIndigo200: $analogous-indigo-200-color;
+  analogousIndigo300: $analogous-indigo-300-color;
+  analogousIndigo400: $analogous-indigo-400-color;
+  analogousIndigo500: $analogous-indigo-500-color;
+  analogousIndigo600: $analogous-indigo-600-color;
+  analogousIndigo700: $analogous-indigo-700-color;
+  analogousIndigo800: $analogous-indigo-800-color;
+  analogousIndigo900: $analogous-indigo-900-color;
+
+  analogousTeal50: $analogous-teal-50-color;
+  analogousTeal100: $analogous-teal-100-color;
+  analogousTeal200: $analogous-teal-200-color;
+  analogousTeal300: $analogous-teal-300-color;
+  analogousTeal400: $analogous-teal-400-color;
+  analogousTeal500: $analogous-teal-500-color;
+  analogousTeal600: $analogous-teal-600-color;
+  analogousTeal700: $analogous-teal-700-color;
+  analogousTeal800: $analogous-teal-800-color;
+  analogousTeal900: $analogous-teal-900-color;
+
+  success50: $success-50-color;
+  success100: $success-100-color;
+  success200: $success-200-color;
+  success300: $success-300-color;
+  success400: $success-400-color;
+  success500: $success-500-color;
+  success600: $success-600-color;
+  success700: $success-700-color;
+  success800: $success-800-color;
+  success900: $success-900-color;
+
+  warning50: $warning-50-color;
+  warning100: $warning-100-color;
+  warning200: $warning-200-color;
+  warning300: $warning-300-color;
+  warning400: $warning-400-color;
+  warning500: $warning-500-color;
+  warning600: $warning-600-color;
+  warning700: $warning-700-color;
+  warning800: $warning-800-color;
+  warning900: $warning-900-color;
+
+  destructive50: $destructive-50-color;
+  destructive100: $destructive-100-color;
+  destructive200: $destructive-200-color;
+  destructive300: $destructive-300-color;
+  destructive400: $destructive-400-color;
+  destructive500: $destructive-500-color;
+  destructive600: $destructive-600-color;
+  destructive700: $destructive-700-color;
+  destructive800: $destructive-800-color;
+  destructive900: $destructive-900-color;
+
+  gray50: $gray-50-color;
+  gray100: $gray-100-color;
+  gray200: $gray-200-color;
+  gray300: $gray-300-color;
+  gray400: $gray-400-color;
+  gray500: $gray-500-color;
+  gray600: $gray-600-color;
+  gray700: $gray-700-color;
+  gray800: $gray-800-color;
+  gray900: $gray-900-color;
+
+  white: $white-color;
+  transparent: $transparent-color;
+}

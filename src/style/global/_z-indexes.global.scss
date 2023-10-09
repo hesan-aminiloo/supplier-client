@@ -1,0 +1,11 @@
+@use 'sass:list';
+
+$z-indexes: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 98, 99, 9998, 9999);
+
+:root {
+  @each $z-index in $z-indexes {
+    --z-index-#{$z-index}: #{$z-index};
+  }
+  --z-index-max-minus-one: #{list.nth($z-indexes, -2)};
+  --z-index-max: #{list.nth($z-indexes, -1)};
+}

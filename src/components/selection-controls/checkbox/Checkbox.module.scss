@@ -1,0 +1,77 @@
+@use 'sass:math';
+
+$checkmark-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNSAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy44MTkzIDEuMTQ2MDNDMTQuMDQ2MiAxLjM1MzM2IDE0LjA2MTUgMS43MDQ3OCAxMy44NTM2IDEuOTMwOTZMNS42ODIxMyAxMC44MTk4QzUuNTc5NDQgMTAuOTMxNSA1LjQzNTQ2IDEwLjk5NjYgNS4yODM1MyAxMC45OTk5QzUuMTMxNiAxMS4wMDMyIDQuOTg0OTIgMTAuOTQ0NCA0Ljg3NzQ3IDEwLjgzNzNMMS4xNjMxOCA3LjEzMzU4QzAuOTQ1NjA2IDYuOTE2NjIgMC45NDU2MDYgNi41NjQ4NiAxLjE2MzE4IDYuMzQ3OUMxLjM4MDc2IDYuMTMwOTUgMS43MzM1MiA2LjEzMDk1IDEuOTUxMSA2LjM0NzlMNS4yNTM5MyA5LjY0MTMyTDEzLjAzMjIgMS4xODAxNkMxMy4yNDAxIDAuOTUzOTc5IDEzLjU5MjUgMC45Mzg3IDEzLjgxOTMgMS4xNDYwM1oiIGZpbGw9IndoaXRlIiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==');
+
+$small-size: 15px;
+$medium-size: 18px;
+$large-size: 24px;
+$spacing-s: 8px;
+
+@mixin config-checkbox($checkbox-size) {
+  width: $checkbox-size;
+  height: $checkbox-size;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+
+  input[type='checkbox'] {
+    display: none;
+
+    ~ span {
+      width: $checkbox-size;
+      height: $checkbox-size;
+      border-radius: 50%;
+      display: block;
+    }
+
+    + label {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: 2px solid rgba(209, 213, 219);
+      border-radius: math.div($checkbox-size, 4.8);
+      box-sizing: border-box;
+      position: absolute;
+      background-position: center;
+    }
+
+    &:checked {
+      + label {
+        border-color: #4298d0;
+        background-color: #4298d0;
+        background-position: math.div($checkbox-size, 8.2) center;
+        background-size: math.div($checkbox-size, 1.7);
+        background-repeat: no-repeat;
+        background-image: $checkmark-image;
+      }
+    }
+
+    &:enabled {
+      + label {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.checkbox-wrapper {
+  &--sm {
+    @include config-checkbox($small-size);
+  }
+
+  &--md {
+    @include config-checkbox($medium-size);
+  }
+
+  &--lg {
+    @include config-checkbox($large-size);
+  }
+}
+
+.checkbox-with-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-s;
+}

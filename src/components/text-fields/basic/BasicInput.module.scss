@@ -1,0 +1,7 @@
+
+.input {
+  &:-webkit-autofill {
+    // Prevent style changes on browser's autofill
+    -webkit-background-clip: text;
+  }
+}

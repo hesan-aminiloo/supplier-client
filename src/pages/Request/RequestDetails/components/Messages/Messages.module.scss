@@ -1,0 +1,107 @@
+@import 'helpers';
+
+$messageItemMaxWidth: 478px;
+$messagesSubtractHeight: 76px;
+$drawerHeaderHeight: 101px;
+
+.messages {
+  flex: 0 0 calc(100vh - $messagesSubtractHeight - $drawerHeaderHeight);
+  max-height: calc(100vh - $messagesSubtractHeight - $drawerHeaderHeight);
+  overflow-anchor: none;
+
+  &-item {
+    width: 100%;
+    display: flex;
+    gap: $spacing-m;
+    padding: 0 $spacing-s;
+    align-items: flex-start;
+    position: relative;
+
+    &__sent {
+      justify-content: flex-end;
+    }
+
+    &__received {
+      justify-content: flex-start;
+    }
+
+    &--avatar {
+      bottom: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      left: 0.5rem;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 2;
+
+      button {
+        position: sticky;
+        top: 0;
+        bottom: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+
+    &--box {
+      max-width: $messageItemMaxWidth;
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 48px;
+
+      &__received {
+        align-content: flex-start;
+      }
+
+      &__sent {
+        align-content: flex-end;
+      }
+
+      .text-container {
+        width: fit-content;
+        padding: $spacing-s $spacing-m;
+
+        &__received {
+          border-radius: $spacing-xs $spacing-xs $spacing-xs 0;
+          color: $neutral-700-color;
+          background: $white-color;
+          border: 1px solid $neutral-200-color;
+          max-width: 478px;
+          margin-right: auto;
+        }
+
+        &__sent {
+          color: $white-color;
+          background: $primary-600-color;
+          border-radius: $spacing-xs $spacing-xs 0 $spacing-xs;
+          max-width: 542px;
+          margin-left: auto;
+        }
+
+        p {
+          font-size: $spacing-m;
+          line-height: $spacing-l;
+          overflow-wrap: anywhere;
+          overflow: hidden;
+          width: 100%;
+        }
+      }
+
+      .message-details {
+
+        &__received {
+          text-align: left;
+        }
+
+        &__sent {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

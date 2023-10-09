@@ -1,0 +1,14 @@
+@import 'helpers';
+
+.notification-settings {
+  &__notification-item {
+    padding-bottom: $spacing-l;
+    border-bottom: 1px solid $neutral-200-color;
+
+    &:last-of-type {
+      padding-bottom: $spacing-z;
+      padding-top: $spacing-l;
+      border-bottom: 0;
+    }
+  }
+}

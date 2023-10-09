@@ -1,0 +1,516 @@
+{
+  "translation": {
+    "auth": {
+      "the-bridge-between-suppliers": "The bridge between suppliers and their customers in the car parts industry.",
+      "our-system-connects-suppliers": "Our system connects suppliers with garages to streamline the car parts procurement process.",
+      "my-parts-locator-connects": "My Parts Locator connects suppliers with garages to streamline the car parts procurement process."
+    },
+    "shared": {
+      "close": "Close",
+      "currency": "£",
+      "details": "Details",
+      "something_wrong": "Something went wrong",
+      "hello": "Hello",
+      "loading": "Loading ...",
+      "step": "step",
+      "cancel": "Cancel",
+      "forms": {
+        "password": "Password",
+        "email": "Email",
+        "user": "User",
+        "password_is_required": "Password is required",
+        "invalid_password": "Invalid Password"
+      },
+      "validation": {
+        "error_403": "You are not authorized to do this action",
+        "invalid_field": "Invalid",
+        "is_required": "{{name}} is required",
+        "not_valid": "{{name}} is not valid",
+        "firstName_required": "First Name is required",
+        "lastName_required": "Last Name is required",
+        "userName_required": "Username is required",
+        "email_required": "Email is required",
+        "email_invalid": "Invalid email",
+        "phone_invalid": "Invalid phone number",
+        "branch_required": "Branch is required",
+        "password_required": "Password is required",
+        "password_invalid": "Must include at least 8 characters, a-z, A-Z, 0-9",
+        "password_match": "Passwords must match",
+        "password_min": "Must include at least 8 characters",
+        "name_required": "Name is required",
+        "password_success": "Password changed successfully",
+        "email_incorrect": "User with this email does not exist",
+        "user_updated": "user details was successfully updated",
+        "role_required": "Role is required",
+        "format_file_incorrect": "The logo must be a JPG, PNG, or JPEG file",
+        "size_file_incorrect": "File size is too large, max 1MB"
+      },
+      "months": {
+        "jan": "January",
+        "feb": "February",
+        "mar": "March",
+        "apr": "April",
+        "may": "May",
+        "jun": "June",
+        "jul": "July",
+        "aug": "August",
+        "sep": "September",
+        "oct": "October",
+        "nov": "November",
+        "dec": "December"
+      }
+    },
+    "side_menu": {
+      "dashboard": "Dashboard",
+      "requests": "Requests",
+      "garage_customers": "Garage customers",
+      "statistics_analytics": "Statistics & analytics",
+      "notifications": "Notifications",
+      "marketing": "Marketing",
+      "settings": "Settings",
+      "logout": "Log out"
+    },
+    "placeholders": {
+      "user": "Username or email",
+      "password": "Password",
+      "email_address": "Email address",
+      "search": "Search...",
+      "select": "Select"
+    },
+    "forgot_password": {
+      "forgot_your_password": "Forgot your password?",
+      "in_order_to_reset_your_password": "In order to reset your password please enter your registered email address below.",
+      "reset_password": "Reset password"
+    },
+    "login": {
+      "hi": "Hi,",
+      "login_to_account": "Login to your account",
+      "user": "User",
+      "password": "Password",
+      "remember_me": "Remember me",
+      "login": "Log in",
+      "forgot_password": "Forgot password?",
+      "login_error": "Your username or password is incorrect, please try again.",
+      "sample_email": "sample@example.com"
+    },
+    "create_pass": {
+      "create_new_password": "Create new password",
+      "description": "Your new password must be a minimum of 8 characters in length and contain at least one lowercase letter, one uppercase letter, and one number.",
+      "password": "Password",
+      "confirm_password": "Confirm password",
+      "submit": "Submit",
+      "password_reset": "Password Reset",
+      "reset_success": "Your password has now been updated. Please log in on your device.",
+      "thank_you": "Thank you",
+      "your_token_has_expired": "Your token has expired. Please try again"
+    },
+    "reset": {
+      "forgot_pass": {
+        "forgot_your_password": "Forgot your password?",
+        "description": "In order to reset your password please enter your registered email address below.",
+        "reset_pass": "Reset password",
+        "email": "Email"
+      },
+      "reset_pass": {
+        "title": "Reset password",
+        "description": "Instructions have been sent to your email address with a link to reset your password. If you don’t see the email, check your spam or junk folder before submitting a new request.",
+        "resend": "Resend",
+        "thank_you": "Thank you",
+        "have_received": "Haven’t yet received?",
+        "email": "Email"
+      }
+    },
+    "settings": {
+      "landing": {
+        "settings": "Settings",
+        "company_details": "Company details",
+        "add_your_company_details_and_any_additional_branches": "Add your company details and any additional branches.",
+        "system_users": "System users",
+        "add_additional_users_that_can_access_your_dashboard": "Add additional users that can access your dashboard.",
+        "account_details": "User details",
+        "change_your_details_including_your_password": "Change your details including your password.",
+        "notification_settings": "Notification Settings",
+        "what_notifications_you_want_to_receive_and_how": "What notifications you want to receive and how.",
+        "pricing_billing": "Pricing and billing",
+        "costs_incured_for_use_of_the_system": "Costs incured for use of the system."
+      },
+      "company_info": {
+        "company_details": "Company details",
+        "branches": "Branches",
+        "add_branch": "Add branch",
+        "update_branch": "Update branch",
+        "branch_details": "Branch details",
+        "form": {
+          "company_name": "Company name",
+          "phone": "Phone",
+          "email": "Email",
+          "address": "Address",
+          "town_city": "Town/City",
+          "post_code": "Post code",
+          "country": "Country",
+          "street_name_and_number": "Street name and number",
+          "opening_times": "Opening times"
+        }
+      },
+      "system_users": {
+        "you_dont_have_any_system_user": "You don’t have any system user",
+        "to_add_your_user_and_util": "To add your users and utilize your services for selling products, click the button below.",
+        "system_users": "System users",
+        "add_new_user": "Add new user",
+        "add_user": "Add user",
+        "add_system_user": "Add system user",
+        "system_user_details": "System user details",
+        "save_changes": "Save changes",
+        "user": "User",
+        "user_added": "User Added",
+        "email": "Email",
+        "phone": "Phone",
+        "role": "Role",
+        "status": "Status",
+        "empty_list": "System users list is empty. Please add new user",
+        "modal": {
+          "delete_users": "Delete users?",
+          "change_status": "Change status?",
+          "change_status_description": "This will change status of the selected system user. Are you sure?",
+          "are_you_sure": "This will permanently delete the selected system user(s). Are you sure ?",
+          "back": "Back",
+          "continue": "Continue"
+        },
+        "form": {
+          "email": "Email",
+          "phone": "Phone",
+          "phone_number": "Phone number",
+          "select": "Select",
+          "role": "Role",
+          "branch": "Branch",
+          "first_name": "First name",
+          "last_name": "Last name",
+          "password": "Password",
+          "username": "Username",
+          "confirm_password": "Confirm password",
+          "repeat_password": "Repeat password",
+          "user_deleted": "User deleted",
+          "status_changed": "Status changed",
+          "permission_to_add_customers": "Permission to add customers"
+        }
+      },
+      "account_details": {
+        "account_details": "User details",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "user_name": "Username",
+        "phone": "Phone",
+        "email": "Email",
+        "branch": "Branch",
+        "role": "Role",
+        "current_password": "Current password",
+        "new_password": "New password",
+        "confirm_new_password": "Confirm new password",
+        "save_changes": "Save changes",
+        "error_image_size": "File size is too large, max 1MB"
+      },
+      "notification_settings": {
+        "push_notifications": "Push notifications",
+        "email_notifications": "Email notifications",
+        "sms_notifications": "SMS notifications",
+        "order_quote_updates": "Order/Quote updates",
+        "messages": "Messages"
+      },
+      "pricing_billing": {
+        "pricing_billing": "Pricing and billing",
+        "pricing": "Pricing",
+        "branch": "Branch",
+        "per_garage_user": "per garage user",
+        "description": "Description",
+        "total_garage_users": "Total garage users",
+        "total_user_cost": "Total user cost",
+        "branch_cost": "Branch cost",
+        "branch_total": "Branch total",
+        "statement": "Statement",
+        "view_statement": "view statement",
+        "unit_cost": "Unit cost",
+        "qty_users": "Qty / Users",
+        "line_total_cost": "Line Total Cost",
+        "name": "name",
+        "transaction_history_is_empty": "Your Transaction History is Empty",
+        "transaction_history_is_empty_description": "This page will display all your transaction records once you start making payments or purchases through our website.",
+        "next_invoice_issue_date": "Next invoice issue date",
+        "invoice_total": "Invoice total",
+        "total_branches": "Total branches",
+        "billing_enquiries_sent_to": "Billing enquiries sent to",
+        "print_statement": "Print statement",
+        "date": "date",
+        "month": "Month"
+      }
+    },
+    "garage_customers": {
+      "title": "Garage customers",
+      "add_new_customer": "Add new customer",
+      "connect_to_customer": "Connect customer",
+      "view_more": "View more",
+      "you_dont_have_any_garage_customer": "You don’t have any garage customer",
+      "to_add_your_customer_and_util": "To add your customers and utilize your services for selling products, click the button below."
+    },
+    "garage_customer_details": {
+      "overall_revenue": "Overall revenue",
+      "garage_customer": "Garage customer",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "post_code": "Post code",
+      "view": "View",
+      "confirm": "Confirm",
+      "decline": "Decline",
+      "statistics": "Statistics",
+      "quotes": "Quotes",
+      "orders": "Orders",
+      "income": "Income",
+      "month": "Month",
+      "user_details_modal": {
+        "user_info": "User Info",
+        "remove_device": "Remove this device",
+        "first_log": "First log in",
+        "save_changes": "Save changes",
+        "activate": "Activate",
+        "suspend": "Suspend",
+        "update": "Update"
+      },
+      "connect_garage_customer": {
+        "title": "Connect to existing customer",
+        "search": "Search",
+        "id_number": "ID number:",
+        "connect_customer_title": "Connect customer to branch",
+        "connect_customer_description": "Please select the branch for this customer",
+        "submit": "Connect",
+        "success": "Customer connected successfully"
+      }
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "all_read": "Mark all as read",
+      "delete_notification": "Delete notification",
+      "delete_notification_description": "This will permanently delete the selected notification. Are you sure ?",
+      "tabs": {
+        "all": "All",
+        "unread": "Unread"
+      },
+      "user": {
+        "delete": {
+          "title": "{{garageName}} user deleted",
+          "description": "{{garageName}} has deleted the user <span style='color:steelblue'>{{name}} </span> "
+        },
+        "update": {
+          "title": "{{garageName}} user updated",
+          "description": "{{garageName}} has updated the user <span style='color:steelblue'>{{name}} </span> "
+        },
+        "add": {
+          "title": "{{garageName}} user added",
+          "description": "{{garageName}} has added <span style='color:steelblue'>{{name}}</span> as a new user"
+        },
+        "suspended": {
+          "title": "Suspended by {{garageName}}",
+          "description": "<span style='color:steelblue'>{{garageName}}</span> has set {{name}} to suspended."
+        },
+        "activated": {
+          "title": "Activated by {{garageName}}",
+          "description": "<span style='color:steelblue'>{{garageName}}</span> has set {{name}} to active."
+        }
+      },
+      "request": {
+        "response_required": {
+          "title": "{{type}} request from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been received."
+        },
+        "canceled": {
+          "title": "{{type}} cancellation from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been cancelled."
+        },
+        "confirmed": {
+          "title": "{{type}} confirmation from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been confirmed."
+        },
+        "missed_quote": {
+          "title": "Quote request from {{garageName}}",
+          "description": "Quote request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been received."
+        }
+      },
+      "msg": {
+        "send": {
+          "title": "Chat message received",
+          "description": "{{garageName}} has sent a new message regarding {{requestType}} <span style='color:steelblue'> {{requestId}} </span>."
+        }
+      }
+    },
+    "requests": {
+      "requests": "Requests",
+      "request_status": "Request status",
+      "request_type": "Request type",
+      "time": "Time",
+      "search": "Search",
+      "reg_number_or_vin_code": "Reg number or vin code",
+      "doc": "Doc #",
+      "type": "Type",
+      "garage": "Garage",
+      "reg": "Reg",
+      "reg-or-vin": "Reg/VIN",
+      "status": "Status",
+      "date": "Date",
+      "more": "More",
+      "parts_required": "Parts required",
+      "all_branches": "All branches"
+    },
+    "request_details": {
+      "page_title": "{{requestType}} request details",
+      "garage": "Garage",
+      "document": "Document",
+      "date": "Date",
+      "reg_number": "Reg number",
+      "vin_code": "Vin code",
+      "vin_number": "Vin number",
+      "not_provided": "Not Provided",
+      "status": "Status",
+      "questions_chat_here": "Questions ? Chat here",
+      "part_details": {
+        "title": "Part details",
+        "image": "Image",
+        "part_number": "Part Number",
+        "description": "Description",
+        "quantity": "Quantity",
+        "line_total": "Line Total",
+        "delivery": "Delivery",
+        "part_required": "Part Required",
+        "part_number_or_description": "Part Number or Description"
+      },
+      "parts_returned": "Parts returned",
+      "note": "Note",
+      "video": "Video",
+      "note_from_customer": "Notes from customer",
+      "create_response": {
+        "title": "Create response",
+        "response": "Response",
+        "response_details": "Response details",
+        "request_response": "{{type}} response",
+        "response_header": "Response header",
+        "vehicle_make": "Vehicle make",
+        "make": "Make",
+        "vehicle_model": "Vehicle model",
+        "model": "Model",
+        "fuel_type": "Fuel type",
+        "fuel": "Fuel",
+        "engine": "Engine",
+        "gearbox": "Gearbox",
+        "notes": "Notes",
+        "additional_notes": "Additional notes",
+        "total": "Total",
+        "confirm": "Confirm order",
+        "request_confirmation": "Request confirmation",
+        "add_part": "Add another part",
+        "excl_vat": "excl. VAT",
+        "fuel_types": {
+          "petrol": "Petrol",
+          "diesel": "Diesel",
+          "electric": "Electric",
+          "petrol_electric": "Petrol/Electric",
+          "petrol_ethanol": "Petrol/Ethanol",
+          "petrol_cng": "Petrol (CNG)",
+          "petrol_lpg": "Petrol (LPG)"
+        },
+        "order_confirmed": "Order confirmed",
+        "confirmation_request_sent": "Confirmation request sent",
+        "in_stock": {
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      "part": {
+        "new_part_name": "New part name",
+        "number": "Part number",
+        "quantity": "Qty",
+        "unit_price": "Unit price excl. VAT",
+        "line_total": "Line total excl. VAT",
+        "delivery_date": "Delivery date",
+        "in_stock": "Available"
+      },
+      "cancel_request": "Cancel request",
+      "dispatch_request": "Mark order as dispatched",
+      "dispatched_at": "Dispatched at",
+      "cancel_request_confirm": "Yes, Cancel",
+      "dispatch_request_confirm": "Yes, with notification",
+      "dispatch_request_confirm_without_notify": "Yes, without notification",
+      "messages": "Messages",
+      "not_found_history": "No history found...",
+      "type_message": "Type a message",
+      "response_details": "Response details",
+      "excl_VAT": "Excl. VAT"
+    },
+    "stats": {
+      "requests_ratio": "Requests Ratio",
+      "orders": "Orders",
+      "quotes": "Quotes",
+      "garage": "Garage",
+      "value": "Value",
+      "sales": "Sales",
+      "total_users": "Total users",
+      "requests": "Requests",
+      "statistics": "Statistics",
+      "overall_revenue": "Overall revenue",
+      "sales_by_branches": "Sales by branches",
+      "supplier_response_time": "Supplier response time",
+      "average_supplier_response_time": "Average supplier response time",
+      "analysis_of_garage_activity": "Analysis of garage activity",
+      "analysis_of_garage_activity_description": "The percentage of garage customers that have placed at least one request during this period.",
+      "total_cost": "Total cost",
+      "lost_orders": "Lost orders",
+      "lost_orders_description": "you lost out on potential revenue from {{total}} quotes during this period",
+      "missed_opportunities": "Missed opportunities",
+      "last_orders": "Last orders",
+      "compare_orders_and_quotes": "Compare orders and quotes",
+      "average_time": "Average time",
+      "all_time": "All time",
+      "sales_report": "Sales report",
+      "customers_activity": "Customers activity",
+      "total": "Total"
+    },
+    "not_found": {
+      "title": "Oops! Error 404 - Page Not Found",
+      "description": "Uh-oh! The page you're looking for has vanished into the digital abyss. Apologies for the inconvenience.",
+      "go_to_home_page": "Go to home page"
+    },
+    "marketing": {
+      "campaign_successfully_created": "Campaign Successfully created",
+      "marketing": "Marketing",
+      "description": "Description",
+      "campaign_list": "Campaign list",
+      "campaign_title": "Campaign Title",
+      "item_description": "Item Description",
+      "create_your_marketing_campaign": "Create your marketing campaign",
+      "sample_title": "Sample Blue Roll only £1.99 per roll",
+      "marketing_messages_are_limited_to_one_per_day": "Marketing messages are limited to one per day.",
+      "send_with_schedule": "Send with Schedule",
+      "the_message_will_contain_a_buy_now": "The message will contain a Buy Now option for the customer if the item description is completed.",
+      "campaigns": {
+        "campaign_list": "Campaign list",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "sent": "Sent",
+        "campaign_deleted": "Campaign deleted successfully",
+        "campaign_duplicated": "Campaign duplicated successfully",
+        "confirm_delete": {
+          "title": "Delete the campaign",
+          "description": "This Action will delete the campaign. Are you sure ?",
+          "submitText": "Yes, Delete"
+        },
+        "confirm_duplicate": {
+          "title": "Duplicate the campaign",
+          "description": "This Action will duplicate the campaign. Are you sure ?",
+          "submitText": "Yes, Duplicate"
+        }
+      }
+    },
+    "datepicker": {
+      "set_date_and_time": "Set Date and Time",
+      "cancel": "Cancel",
+      "set": "Set"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Template</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    html, body {
+        font-size: 16px;
+    }
+
+    html, body, * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .main-table {
+        width: 100%;
+        padding: 16px 20px;
+    }
+
+    .logo-td {
+        border-bottom: 1px solid #727272;
+    }
+
+    .logo {
+        width: 310px;
+        height: 112px;
+        padding-bottom: 16px;
+    }
+
+    .paragraph {
+        color: #1f2937;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0;
+    }
+
+    .apps {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .apps-item {
+        margin: 16px 16px 0;
+        height: 60px;
+    }
+
+    .apps-item img {
+        width: 150px;
+        height: auto;
+    }
+
+    .text-gray {
+        color: #aaa;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-8 {
+        margin-top: 8px;
+    }
+
+    .mt-40 {
+        margin-top: 40px;
+    }
+
+    footer {
+        width: 100%;
+    }
+</style>
+<body>
+<main class="main">
+  <table class="main-table">
+    <tr>
+      <td class="logo-td">
+        <img src="logo.jpg" alt="logo" class="logo">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="paragraph mt-40">
+          Hi [User First Name] at [Garage Name],
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="paragraph">
+          You are now able to use My Parts Locator application to request parts orders and quotations from
+          [Supplier Name] on your mobile device.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="paragraph">
+          Simply download My Parts Locator application for your device from the links provided at the bottom
+          of this message. Once installed please login with the following credentials:
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="paragraph">
+          Username: [Username]
+          <br />
+          Password: [Password]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p class="paragraph">
+          Once you login for the first time you will be prompted to confirm your company details are correct
+          and to change your password. If you have any questions please contact [Supplier Company Name] on
+          [Supplier Company Phone] or email [Supplier Company Email].
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td class="apps">
+        <a class="apps-item" href="app-store">
+          <img src="app-store.png" alt="app store">
+        </a>
+        <a class="apps-item" href="google-play">
+          <img src="google-play.png" alt="google play">
+        </a>
+      </td>
+    </tr>
+  </table>
+</main>
+<footer class="mt-8">
+  <p class="text-center text-gray">
+    © 2023 Nordic Management Solutions Limited
+  </p>
+</footer>
+</body>
+</html>

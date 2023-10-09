@@ -1,0 +1,15 @@
+.icon-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(min-content 1fr min-content);
+  &__icon {
+    height: 100px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+}

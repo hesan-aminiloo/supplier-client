@@ -1,0 +1,9 @@
+.group {
+  display: flex;
+  gap: 8px;
+  position: relative;
+
+  &--vertical {
+    flex-flow: column;
+  }
+}

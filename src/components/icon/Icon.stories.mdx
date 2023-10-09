@@ -1,0 +1,39 @@
+import { ArgsTable, Canvas, Description, Meta, Story, Title } from '@storybook/addon-docs';
+import { Icon } from './Icon';
+
+<Meta
+  title="Components/Icon"
+  component={Icon}
+  argTypes={{
+    name: {
+      description: 'The name of the icon that exists on assets/icons directory.',
+    },
+    size: {
+      control: 'select',
+      options: ['xs', 'sm', 'md', 'lg'],
+      description: 'The size of the icon',
+    },
+  }}
+/>
+
+<Title />
+
+<Description>IconsSymbols should be added somewhere in the DOM.</Description>
+
+<Canvas>
+  <Story
+    name="Icon"
+    args={{
+      name: 'add',
+      size: 'md',
+    }}
+  >
+    {(args) => (
+      <div style={{ width: '100%', margin: 'auto', textAlign: 'center' }}>
+        <Icon {...args} />
+      </div>
+    )}
+  </Story>
+</Canvas>
+
+<ArgsTable />

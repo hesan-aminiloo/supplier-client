@@ -1,0 +1,14 @@
+@import './spacings.variables';
+
+:export {
+  spacingXXS: $spacing-xxs;
+  spacingXS: $spacing-xs;
+  spacingS: $spacing-s;
+  spacingM: $spacing-m;
+  spacingL: $spacing-l;
+  spacingXL: $spacing-xl;
+  spacingXXL: $spacing-xxl;
+  spacingXXL2: $spacing-xxl-2;
+  spacingXXL3: $spacing-xxl-3;
+  spacingXXL4: $spacing-xxl-4;
+}

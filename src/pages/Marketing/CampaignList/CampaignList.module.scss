@@ -1,0 +1,7 @@
+.campaign-list-item {
+  max-width: calc(100% - 100px);
+
+  &__details {
+    max-width: calc(100% - 10rem);
+  }
+}

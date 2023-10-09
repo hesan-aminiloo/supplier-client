@@ -1,0 +1,98 @@
+{
+  "translation": {
+    "shared": {
+      "validation": {
+        "error_403": "You are not authorized to do this action",
+        "format_file_incorrect": "The logo must be a JPG, PNG, or JPEG file",
+        "size_file_incorrect": "File size is too large, max 1MB"
+      }
+    },
+    "requests": {
+      "all_branches": "All branches"
+    },
+    "settings": {
+      "pricing_billing": {
+        "branch": "Branch",
+        "per_garage_user": "per garage user",
+        "description": "Description",
+        "total_garage_users": "Total garage users",
+        "total_user_cost": "Total user cost",
+        "branch_cost": "Branch cost",
+        "branch_total": "Branch total",
+        "statement": "Statement",
+        "view_statement": "view statement",
+        "unit_cost": "Unit cost",
+        "qty_users": "Qty / Users",
+        "line_total_cost": "Line Total Cost",
+        "name": "name",
+        "transaction_history_is_empty": "Your Transaction History is Empty",
+        "transaction_history_is_empty_description": "This page will display all your transaction records once you start making payments or purchases through our website.",
+        "next_invoice_issue_date": "Next invoice issue date",
+        "invoice_total": "Invoice total",
+        "total_branches": "Total branches",
+        "billing_enquiries_sent_to": "Billing enquiries sent to",
+        "print_statement": "Print statement",
+        "date": "date",
+        "month": "Month"
+      },
+      "system_users": {
+        "you_dont_have_any_system_user": "You don’t have any system user",
+        "to_add_your_user_and_util": "To add your users and utilize your services for selling products, click the button below."
+      }
+    },
+    "request_details": {
+      "questions_chat_here": "Questions ? Chat here",
+      "vin_number": "Vin number",
+      "create_response": {
+        "request_response": "{{type}} response"
+      }
+    },
+    "notifications": {
+      "delete_notification": "Delete notification",
+      "delete_notification_description": "This will permanently delete the selected notification. Are you sure ?",
+      "request": {
+        "response_required": {
+          "title": "{{type}} request from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been received."
+        },
+        "canceled": {
+          "title": "{{type}} cancellation from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been cancelled."
+        },
+        "confirmed": {
+          "title": "{{type}} confirmation from {{garageName}}",
+          "description": "{{type}} request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been confirmed."
+        },
+        "missed_quote": {
+          "title": "Quote request from {{garageName}}",
+          "description": "Quote request <span style='color:steelblue'>{{requestId}}</span> from {{garageName}} has been received."
+        }
+      },
+      "user": {
+        "suspended": {
+          "title": "Suspended by {{garageName}}",
+          "description": "<span style='color:steelblue'>{{garageName}}</span> has set {{name}} to suspended."
+        },
+        "activated": {
+          "title": "Activated by {{garageName}}",
+          "description": "<span style='color:steelblue'>{{garageName}}</span> has set {{name}} to active."
+        }
+      },
+      "msg": {
+        "send": {
+          "description": "{{garageName}} has sent a new message regarding {{requestType}} <span style='color:steelblue'> {{requestId}} </span>."
+        }
+      }
+    },
+    "garage_customer_details": {
+      "connect_garage_customer": {
+        "success": "Customer connected successfully"
+      }
+    },
+    "not_found": {
+      "title": "Oops! Error 404 - Page Not Found",
+      "description": "Uh-oh! The page you're looking for has vanished into the digital abyss. Apologies for the inconvenience.",
+      "go_to_home_page": "Go to home page"
+    }
+  }
+}

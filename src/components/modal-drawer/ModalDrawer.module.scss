@@ -1,0 +1,81 @@
+@import 'helpers';
+$drawer-default-min-width: 600px;
+
+.modal-drawer {
+  z-index: var(--modal-drawer-z-index);
+  flex: 1;
+  max-height: 100%;
+  transition: transform $animation-m ease-out;
+
+  &--open {
+    transform: none !important;
+  }
+
+  &--full-height {
+    height: 100%;
+  }
+
+  &__modal {
+    left: $spacing-z;
+    right: $spacing-z;
+    bottom: $spacing-z;
+    transform: translateY(100%);
+  }
+
+  &__drawer {
+    background-color: $white-color;
+    overflow: hidden;
+  }
+
+  &__body {
+    flex: 1;
+    background-color: $white-color;
+    background: $neutral-100-color !important;
+  }
+
+  &__content {
+    transform: translate(0);
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+.drawer {
+  &--right {
+    right: $spacing-z;
+    top: $spacing-z;
+    bottom: $spacing-z;
+    transform: translateX(100%);
+    border-top-left-radius: $border-radius-xlg;
+    border-bottom-left-radius: $border-radius-xlg;
+    min-width: $drawer-default-min-width;
+  }
+
+  &--left {
+    left: $spacing-z;
+    top: $spacing-z;
+    bottom: $spacing-z;
+    transform: translateX(-100%);
+    border-top-right-radius: $border-radius-xlg;
+    border-bottom-right-radius: $border-radius-xlg;
+    min-width: $drawer-default-min-width;
+  }
+
+  &--top {
+    top: $spacing-z;
+    right: $spacing-z;
+    left: $spacing-z;
+    transform: translateY(-100%);
+    border-bottom-left-radius: $border-radius-xlg;
+    border-bottom-right-radius: $border-radius-xlg;
+  }
+
+  &--bottom {
+    bottom: $spacing-z;
+    right: $spacing-z;
+    left: $spacing-z;
+    transform: translateY(100%);
+    border-top-right-radius: $border-radius-xlg;
+    border-top-left-radius: $border-radius-xlg;
+  }
+}

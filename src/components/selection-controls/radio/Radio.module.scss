@@ -1,0 +1,101 @@
+@use 'sass:math';
+
+$small-size: 16px;
+$medium-size: 20px;
+$large-size: 24px;
+$primary-color: #4298d0;
+$duration-medium: 0.3s;
+$spacing-z: 0;
+$spacing-s: 8px;
+
+@mixin config-radio($radio-size) {
+  width: $radio-size;
+  height: $radio-size;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+
+  input[type='radio'] {
+    display: none;
+
+    + label {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: math.div($radio-size, 10) solid #d1d5db;
+      border-radius: 50%;
+      box-sizing: border-box;
+      position: absolute;
+      padding: math.div($radio-size, 7.2);
+      opacity: 0.5;
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        display: block;
+        box-sizing: border-box;
+        background-color: $primary-color;
+        transition: transform $duration-medium ease;
+        transform: scale(0);
+        border-radius: 50%;
+      }
+    }
+
+    &:checked {
+      + label {
+        border-color: $primary-color;
+
+        &::after {
+          transform: scale(1);
+        }
+      }
+    }
+
+    &:enabled {
+      + label {
+        opacity: 1;
+        cursor: pointer;
+
+        &::before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 50%;
+          position: absolute;
+          left: $spacing-z;
+          right: $spacing-z;
+          top: $spacing-z;
+          bottom: $spacing-z;
+          margin: auto;
+          transform: scale(0);
+          background-color: $primary-color;
+          border: 1px solid $primary-color;
+          opacity: 1;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+.radio-wrapper {
+  &--sm {
+    @include config-radio($small-size);
+  }
+
+  &--md {
+    @include config-radio($medium-size);
+  }
+
+  &--lg {
+    @include config-radio($large-size);
+  }
+}
+
+.radio-with-label {
+  display: flex;
+  align-items: center;
+  gap: $spacing-s;
+}

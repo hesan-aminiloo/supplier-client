@@ -1,0 +1,51 @@
+.skeleton-effect {
+  position: absolute;
+  z-index: $z-index-1;
+  inset: 0;
+
+  // NOTE: shimmer
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: $z-index-10;
+    transform: translateX(100%);
+    background: $transparent-color; // NOTE: This is used as the fallback for linear-gradient
+    // stylelint-disable-next-line plugin/no-unsupported-browser-features
+    background-image: linear-gradient(
+      90deg,
+      $transparent-color 0,
+      rgba($raw-white-color, 0.2) 20%,
+      rgba($raw-white-color, 0.6) 60%,
+      $transparent-color
+    );
+    animation: shimmer $duration-longest infinite;
+
+    @keyframes shimmer {
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+  & > * {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: $z-index-2;
+      display: block;
+      background: $gray-200-color;
+    }
+  }
+
+  &,
+  &::after,
+  & > *::after {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}

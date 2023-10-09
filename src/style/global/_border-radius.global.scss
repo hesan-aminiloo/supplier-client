@@ -1,0 +1,15 @@
+$border-radiuses: (
+  z: 0,
+  sm: 4px,
+  md: 6px,
+  lg: 8px,
+  xlg: 13px,
+  full: 9999px,
+  // Based on Tailwind CSS
+);
+
+:root {
+  @each $key, $value in $border-radiuses {
+    --border-radius-#{$key}: #{$value};
+  }
+}

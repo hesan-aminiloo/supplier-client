@@ -1,0 +1,32 @@
+@import '../helpers';
+
+.Toastify__toast {
+  padding: $spacing-m;
+  border-radius: $border-radius-lg;
+  z-index: 9999;
+  &-body {
+    padding: 0;
+  }
+}
+
+.Toastify__toast--default {
+  background-color: #202123;
+  color: $white-color;
+}
+.Toastify__toast--success {
+  background-color: $success-600-color;
+  color: $white-color;
+}
+.Toastify__toast--info {
+  background-color: $neutral-900-color;
+  color: $white-color;
+}
+.Toastify__toast--warning {
+  background-color: $warning-600-color;
+  color: $white-color;
+}
+.Toastify__toast--error {
+  background-color: $destructive-600-color;
+  color: $white-color;
+  z-index: 9999;
+}

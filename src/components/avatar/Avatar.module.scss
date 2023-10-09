@@ -1,0 +1,79 @@
+@import 'helpers';
+
+$avatar-xs: $spacing-l; // 24px
+$avatar-sm: $spacing-xl; // 32px
+$avatar-md: $spacing-xxl; // 40px
+$avatar-lg: $spacing-xxl-2; // 48px
+$avatar-xl: $spacing-xxl-3; // 56px
+$avatar-xxl: $spacing-xxl-4; // 64px;
+$avatar-hg: calc($spacing-xxl-2 * 2); // 96px
+$avatar-xhg: calc($spacing-xxl-4 * 2); // 128px;
+
+$indicator-base-size: 2px;
+$indicator-xs: calc($indicator-base-size * 3); // 6px;
+$indicator-sm: calc($indicator-base-size * 4); // 8px;
+$indicator-md: calc($indicator-base-size * 5); // 10px;
+$indicator-lg: calc($indicator-base-size * 6); // 12px;
+$indicator-xl: calc($indicator-base-size * 7); // 14px;
+$indicator-xxl: calc($indicator-base-size * 8); // 16px;
+$indicator-hg: calc($indicator-base-size * 9); // 18px;
+$indicator-xhg: calc($indicator-base-size * 10); // 20px;
+
+@mixin box-size($size) {
+  width: $size;
+  height: $size;
+  min-width: $size;
+  min-height: $size;
+}
+
+@mixin config-avatar($size) {
+  @include box-size($size);
+}
+
+@mixin config-indicator($size) {
+  &__indicator {
+    @include box-size($size);
+  }
+}
+
+.avatar {
+  &--xs {
+    @include config-avatar($avatar-xs);
+    @include config-indicator($indicator-xs);
+  }
+
+  &--sm {
+    @include config-avatar($avatar-sm);
+    @include config-indicator($indicator-sm);
+  }
+
+  &--md {
+    @include config-avatar($avatar-md);
+    @include config-indicator($indicator-md);
+  }
+
+  &--lg {
+    @include config-avatar($avatar-lg);
+    @include config-indicator($indicator-lg);
+  }
+
+  &--xl {
+    @include config-avatar($avatar-xl);
+    @include config-indicator($indicator-xl);
+  }
+
+  &--xxl {
+    @include config-avatar($avatar-xxl);
+    @include config-indicator($indicator-xxl);
+  }
+
+  &--hg {
+    @include config-avatar($avatar-hg);
+    @include config-indicator($indicator-hg);
+  }
+
+  &--xhg {
+    @include config-avatar($avatar-xhg);
+    @include config-indicator($indicator-xhg);
+  }
+}

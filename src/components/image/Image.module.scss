@@ -1,0 +1,55 @@
+@import 'helpers';
+
+$image-xs: $spacing-l; // 24px
+$image-sm: $spacing-xl; // 32px
+$image-md: $spacing-xxl; // 40px
+$image-lg: $spacing-xxl-2; // 48px
+$image-xl: $spacing-xxl-3; // 56px
+$image-xxl: $spacing-xxl-4; // 64px;
+$image-hg: calc($spacing-xxl-2 * 2); // 96px
+$image-xhg: calc($spacing-xxl-4 * 2); // 128px;
+
+@mixin box-size($size) {
+  width: $size;
+  height: $size;
+  min-width: $size;
+  min-height: $size;
+}
+
+@mixin config-image($size) {
+  @include box-size($size);
+}
+
+.image {
+  &--xs {
+    @include config-image($image-xs);
+  }
+
+  &--sm {
+    @include config-image($image-sm);
+  }
+
+  &--md {
+    @include config-image($image-md);
+  }
+
+  &--lg {
+    @include config-image($image-lg);
+  }
+
+  &--xl {
+    @include config-image($image-xl);
+  }
+
+  &--xxl {
+    @include config-image($image-xxl);
+  }
+
+  &--hg {
+    @include config-image($image-hg);
+  }
+
+  &--xhg {
+    @include config-image($image-xhg);
+  }
+}

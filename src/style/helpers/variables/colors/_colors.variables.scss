@@ -1,0 +1,181 @@
+$primary-50-color: var(--primary-50-color);
+$primary-100-color: var(--primary-100-color);
+$primary-200-color: var(--primary-200-color);
+$primary-300-color: var(--primary-300-color);
+$primary-400-color: var(--primary-400-color);
+$primary-500-color: var(--primary-500-color);
+$primary-600-color: var(--primary-600-color);
+$primary-700-color: var(--primary-700-color);
+$primary-800-color: var(--primary-800-color);
+$primary-900-color: var(--primary-900-color);
+
+$raw-primary-50-color: var(--raw-primary-50-color);
+$raw-primary-100-color: var(--raw-primary-100-color);
+$raw-primary-200-color: var(--raw-primary-200-color);
+$raw-primary-300-color: var(--raw-primary-300-color);
+$raw-primary-400-color: var(--raw-primary-400-color);
+$raw-primary-500-color: var(--raw-primary-500-color);
+$raw-primary-600-color: var(--raw-primary-600-color);
+$raw-primary-700-color: var(--raw-primary-700-color);
+$raw-primary-800-color: var(--raw-primary-800-color);
+$raw-primary-900-color: var(--raw-primary-900-color);
+
+$neutral-50-color: var(--neutral-50-color);
+$neutral-100-color: var(--neutral-100-color);
+$neutral-200-color: var(--neutral-200-color);
+$neutral-300-color: var(--neutral-300-color);
+$neutral-400-color: var(--neutral-400-color);
+$neutral-500-color: var(--neutral-500-color);
+$neutral-600-color: var(--neutral-600-color);
+$neutral-700-color: var(--neutral-700-color);
+$neutral-800-color: var(--neutral-800-color);
+$neutral-900-color: var(--neutral-900-color);
+
+$raw-neutral-50-color: var(--raw-neutral-50-color);
+$raw-neutral-100-color: var(--raw-neutral-100-color);
+$raw-neutral-200-color: var(--raw-neutral-200-color);
+$raw-neutral-300-color: var(--raw-neutral-300-color);
+$raw-neutral-400-color: var(--raw-neutral-400-color);
+$raw-neutral-500-color: var(--raw-neutral-500-color);
+$raw-neutral-600-color: var(--raw-neutral-600-color);
+$raw-neutral-700-color: var(--raw-neutral-700-color);
+$raw-neutral-800-color: var(--raw-neutral-800-color);
+$raw-neutral-900-color: var(--raw-neutral-900-color);
+
+$analogous-indigo-50-color: var(--analogous-indigo-50-color);
+$analogous-indigo-100-color: var(--analogous-indigo-100-color);
+$analogous-indigo-200-color: var(--analogous-indigo-200-color);
+$analogous-indigo-300-color: var(--analogous-indigo-300-color);
+$analogous-indigo-400-color: var(--analogous-indigo-400-color);
+$analogous-indigo-500-color: var(--analogous-indigo-500-color);
+$analogous-indigo-600-color: var(--analogous-indigo-600-color);
+$analogous-indigo-700-color: var(--analogous-indigo-700-color);
+$analogous-indigo-800-color: var(--analogous-indigo-800-color);
+$analogous-indigo-900-color: var(--analogous-indigo-900-color);
+
+$raw-analogous-indigo-50-color: var(--raw-analogous-indigo-50-color);
+$raw-analogous-indigo-100-color: var(--raw-analogous-indigo-100-color);
+$raw-analogous-indigo-200-color: var(--raw-analogous-indigo-200-color);
+$raw-analogous-indigo-300-color: var(--raw-analogous-indigo-300-color);
+$raw-analogous-indigo-400-color: var(--raw-analogous-indigo-400-color);
+$raw-analogous-indigo-500-color: var(--raw-analogous-indigo-500-color);
+$raw-analogous-indigo-600-color: var(--raw-analogous-indigo-600-color);
+$raw-analogous-indigo-700-color: var(--raw-analogous-indigo-700-color);
+$raw-analogous-indigo-800-color: var(--raw-analogous-indigo-800-color);
+$raw-analogous-indigo-900-color: var(--raw-analogous-indigo-900-color);
+
+$analogous-teal-50-color: var(--analogous-teal-50-color);
+$analogous-teal-100-color: var(--analogous-teal-100-color);
+$analogous-teal-200-color: var(--analogous-teal-200-color);
+$analogous-teal-300-color: var(--analogous-teal-300-color);
+$analogous-teal-400-color: var(--analogous-teal-400-color);
+$analogous-teal-500-color: var(--analogous-teal-500-color);
+$analogous-teal-600-color: var(--analogous-teal-600-color);
+$analogous-teal-700-color: var(--analogous-teal-700-color);
+$analogous-teal-800-color: var(--analogous-teal-800-color);
+$analogous-teal-900-color: var(--analogous-teal-900-color);
+
+$raw-analogous-teal-50-color: var(--raw-analogous-teal-50-color);
+$raw-analogous-teal-100-color: var(--raw-analogous-teal-100-color);
+$raw-analogous-teal-200-color: var(--raw-analogous-teal-200-color);
+$raw-analogous-teal-300-color: var(--raw-analogous-teal-300-color);
+$raw-analogous-teal-400-color: var(--raw-analogous-teal-400-color);
+$raw-analogous-teal-500-color: var(--raw-analogous-teal-500-color);
+$raw-analogous-teal-600-color: var(--raw-analogous-teal-600-color);
+$raw-analogous-teal-700-color: var(--raw-analogous-teal-700-color);
+$raw-analogous-teal-800-color: var(--raw-analogous-teal-800-color);
+$raw-analogous-teal-900-color: var(--raw-analogous-teal-900-color);
+
+$success-50-color: var(--success-50-color);
+$success-100-color: var(--success-100-color);
+$success-200-color: var(--success-200-color);
+$success-300-color: var(--success-300-color);
+$success-400-color: var(--success-400-color);
+$success-500-color: var(--success-500-color);
+$success-600-color: var(--success-600-color);
+$success-700-color: var(--success-700-color);
+$success-800-color: var(--success-800-color);
+$success-900-color: var(--success-900-color);
+
+$raw-success-50-color: var(--raw-success-50-color);
+$raw-success-100-color: var(--raw-success-100-color);
+$raw-success-200-color: var(--raw-success-200-color);
+$raw-success-300-color: var(--raw-success-300-color);
+$raw-success-400-color: var(--raw-success-400-color);
+$raw-success-500-color: var(--raw-success-500-color);
+$raw-success-600-color: var(--raw-success-600-color);
+$raw-success-700-color: var(--raw-success-700-color);
+$raw-success-800-color: var(--raw-success-800-color);
+$raw-success-900-color: var(--raw-success-900-color);
+
+$warning-50-color: var(--warning-50-color);
+$warning-100-color: var(--warning-100-color);
+$warning-200-color: var(--warning-200-color);
+$warning-300-color: var(--warning-300-color);
+$warning-400-color: var(--warning-400-color);
+$warning-500-color: var(--warning-500-color);
+$warning-600-color: var(--warning-600-color);
+$warning-700-color: var(--warning-700-color);
+$warning-800-color: var(--warning-800-color);
+$warning-900-color: var(--warning-900-color);
+
+$raw-warning-50-color: var(--raw-warning-50-color);
+$raw-warning-100-color: var(--raw-warning-100-color);
+$raw-warning-200-color: var(--raw-warning-200-color);
+$raw-warning-300-color: var(--raw-warning-300-color);
+$raw-warning-400-color: var(--raw-warning-400-color);
+$raw-warning-500-color: var(--raw-warning-500-color);
+$raw-warning-600-color: var(--raw-warning-600-color);
+$raw-warning-700-color: var(--raw-warning-700-color);
+$raw-warning-800-color: var(--raw-warning-800-color);
+$raw-warning-900-color: var(--raw-warning-900-color);
+
+$destructive-50-color: var(--destructive-50-color);
+$destructive-100-color: var(--destructive-100-color);
+$destructive-200-color: var(--destructive-200-color);
+$destructive-300-color: var(--destructive-300-color);
+$destructive-400-color: var(--destructive-400-color);
+$destructive-500-color: var(--destructive-500-color);
+$destructive-600-color: var(--destructive-600-color);
+$destructive-700-color: var(--destructive-700-color);
+$destructive-800-color: var(--destructive-800-color);
+$destructive-900-color: var(--destructive-900-color);
+
+$raw-destructive-50-color: var(--raw-destructive-50-color);
+$raw-destructive-100-color: var(--raw-destructive-100-color);
+$raw-destructive-200-color: var(--raw-destructive-200-color);
+$raw-destructive-300-color: var(--raw-destructive-300-color);
+$raw-destructive-400-color: var(--raw-destructive-400-color);
+$raw-destructive-500-color: var(--raw-destructive-500-color);
+$raw-destructive-600-color: var(--raw-destructive-600-color);
+$raw-destructive-700-color: var(--raw-destructive-700-color);
+$raw-destructive-800-color: var(--raw-destructive-800-color);
+$raw-destructive-900-color: var(--raw-destructive-900-color);
+
+$white-color: var(--white-color);
+$raw-white-color: var(--raw-white-color);
+
+$gray-50-color: var(--gray-50-color);
+$gray-100-color: var(--gray-100-color);
+$gray-200-color: var(--gray-200-color);
+$gray-300-color: var(--gray-300-color);
+$gray-400-color: var(--gray-400-color);
+$gray-500-color: var(--gray-500-color);
+$gray-600-color: var(--gray-600-color);
+$gray-700-color: var(--gray-700-color);
+$gray-800-color: var(--gray-800-color);
+$gray-900-color: var(--gray-900-color);
+
+$raw-gray-50-color: var(--raw-gray-50-color);
+$raw-gray-100-color: var(--raw-gray-100-color);
+$raw-gray-200-color: var(--raw-gray-200-color);
+$raw-gray-300-color: var(--raw-gray-300-color);
+$raw-gray-400-color: var(--raw-gray-400-color);
+$raw-gray-500-color: var(--raw-gray-500-color);
+$raw-gray-600-color: var(--raw-gray-600-color);
+$raw-gray-700-color: var(--raw-gray-700-color);
+$raw-gray-800-color: var(--raw-gray-800-color);
+$raw-gray-900-color: var(--raw-gray-900-color);
+
+$transparent-color: var(--transparent-color);
+$raw-transparent-color: var(--raw-transparent-color);

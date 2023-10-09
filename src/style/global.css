@@ -1,0 +1,57 @@
+html,
+body,
+div#root {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(243 244 246) !important;
+}
+
+:root {
+  --side-menu-width-closed: 121px;
+  --side-menu-width-opened: 346px;
+  --modal-drawer-z-index: 800;
+  --popup-z-index: 801;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 502px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-gallery-slide {
+  height: calc(100vh - 220px);
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.image-gallery-thumbnail {
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-inner {
+   width: 100%;
+   height: inherit;
+   object-fit: cover;
+ }

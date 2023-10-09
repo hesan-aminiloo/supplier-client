@@ -1,0 +1,12 @@
+@import 'helpers';
+
+$drawerHeaderHeight: 77px;
+$searchHeight: 96px;
+
+.connection {
+  height: calc(100% - $searchHeight - $drawerHeaderHeight - 2px);
+}
+
+.branches {
+  height: calc(100vh - 538px);
+}

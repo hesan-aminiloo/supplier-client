@@ -1,0 +1,8 @@
+@import './animations.variables';
+
+:export {
+  animationFast: $animation-f;
+  animationMedium: $animation-m;
+  animationSlow: $animation-s;
+  animationExtraSlow: $animation-xs;
+}

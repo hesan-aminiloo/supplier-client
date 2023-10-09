@@ -1,0 +1,23 @@
+@import 'helpers';
+
+.backdrop {
+  z-index: $z-index-98;
+  opacity: 0;
+  top: $spacing-z;
+  left: $spacing-z;
+  right: $spacing-z;
+  bottom: $spacing-z;
+  transition: opacity $animation-m ease-out;
+
+  &--open {
+    opacity: 0.6;
+  }
+
+  &--fixed {
+    position: fixed;
+  }
+
+  &--absolute {
+    position: absolute;
+  }
+}

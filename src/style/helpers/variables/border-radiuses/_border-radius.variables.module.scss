@@ -1,0 +1,9 @@
+@import './border-radius.variables';
+
+:export {
+  z: $border-radius-z;
+  sm: $border-radius-sm;
+  md: $border-radius-md;
+  lg: $border-radius-lg;
+  full: $border-radius-full;
+}

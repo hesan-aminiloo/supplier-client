@@ -1,0 +1,27 @@
+
+
+.editor {
+  min-height: 250px;
+
+  &__content {
+    overflow-y: auto;
+    > div {
+      min-height: 200px;
+    }
+  }
+}
+
+.editor-menu-bar {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  bottom: unset;
+  
+  &__menu-item {
+
+    &--active {
+
+    }
+  }
+}

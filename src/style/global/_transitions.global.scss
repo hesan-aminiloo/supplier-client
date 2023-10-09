@@ -1,0 +1,14 @@
+$duration-list: (
+  short: 100,
+  medium: 250,
+  normal: 500,
+  long: 750,
+  x-long: 1150,
+  longest: 1250,
+);
+
+:root {
+  @each $name, $duration in $duration-list {
+    --duration-#{$name}: #{$duration}ms;
+  }
+}

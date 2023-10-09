@@ -1,0 +1,17 @@
+.date-picker {
+  .react-datepicker-wrapper {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid red !important;
+  }
+  .react-datepicker-popper {
+    background-color: white;
+    width: 320px;
+  }
+  &__header {
+    background-color: wheat;
+  }
+  .react-datepicker__header {
+    background-color: white;
+  }
+}

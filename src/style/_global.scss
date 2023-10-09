@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'helpers';
+@import './global.css';
+
+@import './global/animation.global';
+@import './global/toast.global';
+@import './global/border-radius.global';
+@import './global/colors.global';
+@import './global/skeleton.global';
+@import './global/spacings.global';
+@import './global/transitions.global';
+@import './global/z-indexes.global';
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+.tiptap {
+  > * + * {
+    margin-top: 0.5em;
+  }
+
+  ul,
+  ol {
+    padding: 0 2rem;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  a {
+    color: #14a7e7;
+    text-decoration: underline;
+  }
+}
+
+.infinite-scroll-component__outerdiv {
+  padding-bottom: 1rem;
+  width: 100%;
+  > div {
+    width: 100%;
+  }
+}
